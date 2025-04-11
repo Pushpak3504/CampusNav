@@ -728,6 +728,7 @@ html {
   color: #2D68F8;
 }
 
+
 .nav-toggle:checked ~ .mobile-nav {
   display: flex;
 }

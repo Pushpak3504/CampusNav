@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusNav</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="./assets/favicon.ico" type="image/png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <a href="#homepage"><img src="./assets/logo.png" alt="CampusNav Logo"></a>
+            
+        </div>
+        
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+<label for="nav-toggle" class="hamburger">
+  <span></span>
+</label>
+
+<div class="nav-menu desktop-only">
+  <ul class="nav-links">
+    <li><a href="#homepage">Home</a></li>
+    <li><a href="#working">Working</a></li>
+    <li><a href="#ourdevs">Developers</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#contactus">Contact Us</a></li>
+  </ul>
+  <a href="https://drive.google.com/file/d/12kxBJ1oFM2jfY8yxpGSv4QwYaa0O6uKA/view?usp=drive_link" target="_blank" class="download-btn nav-download">Download Now</a>
+</div>
+
+<div class="mobile-nav">
+  <a href="#homepage">Home</a>
+  <a href="#working">Working</a>
+  <a href="#ourdevs">Developers</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contactus">Contact Us</a>
+  <a href="https://drive.google.com/file/d/12kxBJ1oFM2jfY8yxpGSv4QwYaa0O6uKA/view?usp=drive_link" target="_blank">Download Now</a>
+</div>
+
+    </nav>
+
+    <!-- Hero Section -->
+<header class="hero" id="homepage">
+    <div class="hero-container">
+      <div class="hero-image">
+        <img id="firstphone" src="assets/mobileMockup.png" alt="CampusNav App Mockup" />
+      </div>
+      <div class="hero-content">
+        <p class="hero-slogan">
+          Explore campus like never before. <br />
+          Smart. Simple. Seamless.
+        </p>
+        <a href="https://drive.google.com/file/d/12kxBJ1oFM2jfY8yxpGSv4QwYaa0O6uKA/view?usp=drive_link" target="_blank" class="download-btn" id="downladnowbtn">Download Now</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="working-section" id="working">
+    <h2 class="section-title">How CampusNav Works</h2>
+  
+    <div class="working-card">
+      <div class="working-image">
+        <img src="./assets/1st-portrait.png" alt="Fragment 1">
+      </div>
+      <div class="working-info">
+        <h3>Fragment 1 – College Info</h3>
+        <p>Its primary purpose is to provide users—especially new students, visitors, and faculty—with essential information about the college. This includes recent events, announcements, and general details that help users stay informed and engaged with campus activities. By placing this content upfront, we ensure that users not only benefit from navigational features but also gain a sense of connection with the college environment. This fragment acts as a dynamic bulletin board, keeping users updated while creating a welcoming and informative entry point into the app.</p>
+      </div>
+    </div>
+  
+    <div class="working-card reverse">
+      <div class="working-image">
+        <img src="./assets/2nd-portrait.png" alt="Fragment 2">
+      </div>
+      <div class="working-info">
+        <h3>Fragment 2 – Q&A Bot</h3>
+        <p>was created to simplify the process of finding specific locations on campus through natural text-based queries. Instead of searching manually, users can simply type questions like “Where is the Electronics and Telecommunication Department?” into an input field. This approach makes the app more interactive and user-friendly, especially for those who are new to the campus. On the backend, we’ve implemented a HashMap data structure to identify and match keywords from the user’s query. For example, if the question contains “Electronics” and “Telecommunication,” the system maps these keywords to a predefined answer stored in the HashMap. Once a match is found, the corresponding location details are displayed directly below the input box. This feature is particularly useful for quick, intuitive access to location-based information without the need for manual browsing, making navigation more efficient and accessible for all users.</p>
+      </div>
+    </div>
+  
+    <div class="working-card">
+      <div class="working-image">
+        <img src="./assets/3rd-portrait.png" alt="Fragment 3">
+      </div>
+      <div class="working-info">
+        <h3>Fragment 3 – AR Navigation</h3>
+        <p>Fragment 3 is developed to provide an advanced and interactive navigation experience using Augmented Reality (AR). It allows users to search for various campus locations such as departments, hostels, library, and more through a dedicated search bar or by scrolling through a RecyclerView. Once a user selects a desired location, the app transitions to an integrated Unity-based module that uses the Immersal SDK for indoor AR navigation. Unlike traditional navigation apps like Google Maps, which are limited indoors, this system displays a virtual pointer guiding users step-by-step to their destination within the campus. This fragment plays a crucial role in offering precise and immersive indoor navigation, making it especially useful in large campuses where directions can often be confusing.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <div class="Developerss" id="ourdevs">
+    <div class="container">
+      <h2 class="section-title">Meet Our Developers</h2>
+      <section class="developer-grid">
+        <div class="card">
+          <div class="card-image1"></div>
+          <div class="card-info">
+            <h3>Dr. A. K. Patil</h3>
+            <p><strong>Branch:</strong> E&TC<br>
+               <strong>College:</strong> DVVP COE, Ahmednagar<br>
+               <strong>Role:</strong> Project Guide<br>
+               <strong>Contribution:</strong> valuable guidance and encouragement</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-image2"></div>
+          <div class="card-info">
+            <h3>Miss. Bhakti Kharmale</h3>
+            <p><strong>Branch:</strong> E&TC<br>
+               <strong>College:</strong> DVVP COE, Ahmednagar <br>
+               <strong>Role:</strong> UI/UX Developer<br>
+               <strong>Contribution:</strong> UI/UX, Figma, Branding</p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-image3"></div>
+          <div class="card-info">
+            <h3>Mr. Kaushik Bhanuse</h3>
+            <p><strong>Branch:</strong> E&TC<br>
+               <strong>College:</strong> DVVP COE, Ahmednagar<br>
+               <strong>Role:</strong> Android Developer<br>
+               <strong>Contribution:</strong> FrontEnd, Unity + Immersal SDK setup, RecyclerView & Search </p>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-image4"></div>
+          <div class="card-info">
+            <h3>Mr. Pushpak Bhosale</h3>
+            <p><strong>Branch:</strong> E&TC<br>
+               <strong>College:</strong> DVVP COE, Ahmednagar<br>
+               <strong>Role:</strong> Java Full Stack Developer<br>
+               <strong>Contribution:</strong> Q&A backend logic, Voice Assistant</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  <section class="faq-section" id="faq">
+    <div class="faq-container">
+      <div class="faq-left">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+        <p class="faq-subtitle">
+          Got questions? We’ve got answers. Find solutions to common queries about CampusNav.
+        </p>
+        <a href="https://drive.google.com/file/d/1toxXcCbHVIu-TXotI8GX1zQNpxO7BFvt/view?usp=drive_link" target="_blank" class="faq-button">Read Our Full FAQs</a>
+      </div>
+      <div class="faq-right">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What is CampusNav?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              CampusNav is a smart indoor navigation app designed specifically for college campuses. It helps students, faculty, and visitors explore the college by providing event updates, location-based guidance, and real-time indoor navigation.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span> How do I ask for directions using text?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              In the second section of the app, you can simply type your question in the input box, like "Where is the library?" or "How to reach the admin block?". The app uses smart keyword matching to instantly show you the correct location information.
+
+           </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How does the virtual navigation work inside buildings?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              built CampusNav with scalable technology, ensuring it grows with evolving academic infrastructure and student needs.
+
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can this app be used by visitors or is it only for students?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Anyone visiting the campus—students, faculty, or guests—can use CampusNav to explore and navigate the campus easily.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.closest('.faq-item');
+        item.classList.toggle('active');
+  
+        // Close other items (optional)
+        document.querySelectorAll('.faq-item').forEach(other => {
+          if (other !== item) {
+            other.classList.remove('active');
+          }
+        });
+      });
+    });
+  </script>
+    
+    <section class="contact-wrapper" id="contactus">
+      <div class="contact-box">
+        <!-- Left Contact Info -->
+        <div class="contact-info-panel">
+          <h2>Contact <br> Information</h2>
+          <p class="paragraphinform">This statement reflects a dedication to user satisfaction and a commitment to delivering outstanding support.</p>
+          <div class="info-item"><i class="fas fa-map-marker-alt"></i> Dr. Vithalrao Vikhe Patil College of Engineering, Ahmednagar</div>
+          <div class="info-item"><i class="fas fa-phone-alt"></i> +91 8668897178</div>
+          <div class="info-item"><i class="fas fa-envelope"></i> pushpak3504@gmail.com</div>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/dvvpcoe/?igsh=ZW0zdHdpaGducnA4#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/dvvpcoe-dr-vitthalrav-vikhe-patil-college-of-engineering/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Pushpak3504" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/watch?v=_1ndAA0sp4Q" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+    
+        <!-- Right Contact Form -->
+        <div class="contact-form-panel">
+          <form>
+            <div class="form-group">
+              <label for="name">Name<span>*</span></label>
+              <input type="text" id="name" placeholder="Name" required>
+            </div>
+    
+            <div class="form-group">
+              <label for="email">Email<span>*</span></label>
+              <input type="email" id="email" placeholder="Mail" required>
+            </div>
+    
+            <div class="form-group">
+              <label for="message">Description<span>*</span></label>
+              <textarea id="message" rows="6" placeholder="Message" required></textarea>
+            </div>
+    
+            <a href="#" id="submitLink" class="send-btn">Send Message</a>
+
+          </form>
+        </div>
+      </div>
+    </section>
+    <script>
+      let nameInput = document.querySelector("#name");
+      let messageInput = document.querySelector("#message");
+      let submitLink = document.querySelector("#submitLink");
+      
+      submitLink.addEventListener("click", () => {
+        const subject = `CampusNav Contact - ${nameInput.value}`;
+        const body = `${messageInput.value}`;
+        
+        if (!nameInput.value || !messageInput.value) {
+          alert("Please fill in both Name and Message before sending.");
+          return;
+        }
+    
+        submitLink.href = `mailto:pushpak3504@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      });
+    </script>
+
+    
+<button id="backToTop" title="Go to top">↑</button>
+<script>
+  const topBtn = document.getElementById("backToTop");
+  window.onscroll = () => {
+    topBtn.style.display = window.scrollY > 200 ? "block" : "none";
+  };
+  topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+</script>
+    
+<footer class="footer">
+  <p>© 2025 CampusNav. All rights reserved.</p>
+</footer>
+</body>
+</html>
